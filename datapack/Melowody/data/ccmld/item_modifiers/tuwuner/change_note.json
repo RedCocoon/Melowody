@@ -1,0 +1,13 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:-106b}].Count",
+        "target": "ccmld.note",
+        "op": "replace"
+      }
+    ]
+  }
+]

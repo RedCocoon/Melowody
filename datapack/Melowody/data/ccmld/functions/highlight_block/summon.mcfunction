@@ -1,0 +1,1 @@
+summon minecraft:item_frame ~ ~ ~ {Invisible:1b,Invulnerable:1b,Fixed:1b,Silent:1b,Tags:["ccmld.temp.lk","global.ignore"]}

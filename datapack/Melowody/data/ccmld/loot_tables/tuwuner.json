@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc:{id:\"ccmld:tuwuner\",from:\"cocoon:melowody\"},ccmld:{note:1b},CustomModelData:1440401}"
+            },
+			{
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Tuwuner",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

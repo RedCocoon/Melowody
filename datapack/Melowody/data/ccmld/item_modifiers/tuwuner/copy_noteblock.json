@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "ccmld:temp"
+    },
+    "ops": [
+      {
+        "source": "tag.ccmld.note",
+        "target": "ccmld.note",
+        "op": "replace"
+      }
+    ]
+  }
+]
