@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "ccmld:sheet_muwusic"
+      }
+    }
+  },
+  "rewards": {
+    "function": "ccmld:craft/sheet_muwusic"
+  }
+}

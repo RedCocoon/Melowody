@@ -1,0 +1,30 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "ccmld:sheet_muwusic"
+    },
+    "ops": [
+      {
+        "source": "music",
+        "target": "ccmld.music",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "ccmld:sheet_muwusic"
+    },
+    "ops": [
+      {
+        "source": "bpm",
+        "target": "ccmld.bpm",
+        "op": "replace"
+      }
+    ]
+  }
+]

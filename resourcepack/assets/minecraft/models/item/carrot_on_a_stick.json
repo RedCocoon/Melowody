@@ -3,9 +3,11 @@
     "textures": {
         "layer0": "item/carrot_on_a_stick"
     },
-    
+
     "overrides": [
             {"predicate": {"custom_model_data":1440400}, "model": "ccmld:item/owocarina"},
-			{"predicate": {"custom_model_data":1440401}, "model": "ccmld:item/tuwuner"}
+			      {"predicate": {"custom_model_data":1440401}, "model": "ccmld:item/tuwuner"},
+            {"predicate": {"custom_model_data":1440402}, "model": "ccmld:item/sheet_muwusic"},
+            {"predicate": {"custom_model_data":1440403}, "model": "ccmld:item/locked_sheet_muwusic"}
         ]
 }

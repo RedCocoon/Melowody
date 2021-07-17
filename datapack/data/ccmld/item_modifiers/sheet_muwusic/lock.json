@@ -1,0 +1,6 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:1440403,ccmld:{locked:1b}}"
+  }
+]

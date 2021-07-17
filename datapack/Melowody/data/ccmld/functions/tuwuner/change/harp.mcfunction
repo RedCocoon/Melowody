@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand ccmld:owocarina/change/harp

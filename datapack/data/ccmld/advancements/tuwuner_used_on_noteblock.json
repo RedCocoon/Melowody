@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carrot_on_a_stick"
+          ],
+          "nbt": "{ctc:{id:\"ccmld:tuwuner\"}}"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:note_block"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ccmld:items/tuwuner/used_on_noteblock"
+  }
+}

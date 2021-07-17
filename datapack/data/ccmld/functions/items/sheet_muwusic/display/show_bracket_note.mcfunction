@@ -1,0 +1,27 @@
+execute if score @s ccmld.temp2 matches 0 run tellraw @s {"text":"[_]","color":"#FFFFFF"}
+execute if score @s ccmld.temp2 matches 1 run tellraw @s {"text":"[F#]","color":"#77D700","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 2 run tellraw @s {"text":"[G]","color":"#95C000","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 3 run tellraw @s {"text":"[G#]","color":"#B2A500","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 4 run tellraw @s {"text":"[A]","color":"#CC8600","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 5 run tellraw @s {"text":"[A#]","color":"#E26500","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 6 run tellraw @s {"text":"[B]","color":"#F34100","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 8 run tellraw @s {"text":"[C#]","color":"#FE000F","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 7 run tellraw @s {"text":"[C]","color":"#FC1E00","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 10 run tellraw @s {"text":"[D#]","color":"#E8005A","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 9 run tellraw @s {"text":"[D]","color":"#F70033","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 11 run tellraw @s {"text":"[E]","color":"#CF0083","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 12 run tellraw @s {"text":"[F]","color":"#AE00A9","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 13 run tellraw @s {"text":"[F#]","color":"#8600CC","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 14 run tellraw @s {"text":"[G]","color":"#5B00E7","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 16 run tellraw @s {"text":"[A]","color":"#020AFE","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 15 run tellraw @s {"text":"[G#]","color":"#2D00F9","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 17 run tellraw @s {"text":"[A#]","color":"#0037F6","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 18 run tellraw @s {"text":"[B]","color":"#0068E0","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 19 run tellraw @s {"text":"[C]","color":"#009ABC","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 20 run tellraw @s {"text":"[C#]","color":"#00C68D","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 21 run tellraw @s {"text":"[D]","color":"#00E958","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 22 run tellraw @s {"text":"[D#]","color":"#00FC21","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 23 run tellraw @s {"text":"[E]","color":"#1FFC00","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 24 run tellraw @s {"text":"[F]","color":"#59E800","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 25 run tellraw @s {"text":"[F#]","color":"#94C100","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
+execute if score @s ccmld.temp2 matches 26.. run tellraw @s {"text":"[_]","color":"#FFFFFF","clickEvent":{"action":"run_command","value":"/trigger ccmld.set_play set 2"}}
