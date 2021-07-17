@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Lore:[\"\"]}}"
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{ccmld:{music:\"\"}}"
+  }
+]

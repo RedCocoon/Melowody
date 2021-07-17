@@ -8,6 +8,9 @@
             {"predicate": {"custom_model_data":1440400}, "model": "ccmld:item/owocarina"},
 			      {"predicate": {"custom_model_data":1440401}, "model": "ccmld:item/tuwuner"},
             {"predicate": {"custom_model_data":1440402}, "model": "ccmld:item/sheet_muwusic"},
-            {"predicate": {"custom_model_data":1440403}, "model": "ccmld:item/locked_sheet_muwusic"}
+            {"predicate": {"custom_model_data":1440403}, "model": "ccmld:item/locked_sheet_muwusic"},
+            {"predicate": {"custom_model_data":1440404}, "model": "ccmld:item/vinyl_recoword"},
+            {"predicate": {"custom_model_data":1440405}, "model": "ccmld:block/vinyl_recoword"},
+            {"predicate": {"custom_model_data":1440406}, "model": "ccmld:block/vinyl_recoword_playing"}
         ]
 }

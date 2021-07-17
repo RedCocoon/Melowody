@@ -1,6 +1,6 @@
 To play a note, set score ccmld.temp to the instrument id, and ccmld.temp2 to the pitch (1-25), then run function utils/note/play.
 
-To get a note, set score pointer to the slot you wanted, store the music notes list in ccmld.temp music then run function utils/note/play.
+To get a note, set score pointer to the slot you wanted, store the music notes list in ccmld.temp music then run function utils/note/get.
 The result of getting a note will be stored in storage ccmld.temp2
 
 To set a note, set score pointer to the slow you wanted, store the note in ccmld.temp music then run function utils/note/set

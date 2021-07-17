@@ -33,4 +33,4 @@ execute if score @s ccmld.pointer matches 63.. run tellraw @s {"text":" \u25bc\n
 
 execute unless score @s ccmld.pointer matches 63.. run function ccmld:items/sheet_muwusic/display/show_next_note
 
-tellraw @s ["",{"text":"[Stop Editing (without saving)]","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/trigger ccmld.set_point set -400"}}]
+tellraw @s ["",{"text":"[Stop Editing (without saving)]","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/trigger ccmld.set_point set -400"}},{"text":"[Save (Without Stopping)]","color":"dark_gray","clickEvent":{"action":"suggest_command","value":"/trigger ccmld.set_point set -300"}}]

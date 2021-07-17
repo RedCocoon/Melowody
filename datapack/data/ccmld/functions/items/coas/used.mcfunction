@@ -8,3 +8,6 @@ execute if data entity @s SelectedItem{tag:{ctc:{id:"ccmld:tuwuner"}}} run funct
 
 ## If holding sheet muwusic
 execute if data entity @s SelectedItem{tag:{ctc:{id:"ccmld:sheet_muwusic"}}} run function ccmld:items/sheet_muwusic/used
+
+## If holding vinyl
+execute if data entity @s SelectedItem{tag:{ctc:{id:"ccmld:vinyl_recoword"}}} run function ccmld:items/vinyl_recoword/used

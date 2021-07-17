@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ctc:{id:\"ccmld:vinyl_recoword\",from:\"cocoon:melowody\"},CustomModelData:1440404}"
+            },
+			{
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Vinyl Recoword",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

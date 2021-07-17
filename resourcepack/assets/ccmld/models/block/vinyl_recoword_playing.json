@@ -1,0 +1,6 @@
+{
+    "parent": "ccmld:block/vinyl_recoword",
+    "textures": {
+        "layer0": "ccmld:block/vinyl_recoword_playing"
+    }
+}

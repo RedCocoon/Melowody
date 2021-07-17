@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "ccmld:item/vinyl_recoword"
+    }
+}

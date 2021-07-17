@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:-106b,tag:{ctc:{id:\"ccmld:sheet_muwusic\"}}}].tag.ccmld",
+        "target": "ccmld",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{display:{Lore:[\"\"]}}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:-106b,tag:{ctc:{id:\"ccmld:sheet_muwusic\"}}}].tag.display.Name",
+        "target": "display.Lore[0]",
+        "op": "replace"
+      }
+    ]
+  }
+]
