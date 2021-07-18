@@ -2,7 +2,7 @@
 execute if score @s ccmld.set_point matches -100 run function ccmld:items/sheet_muwusic/pointer/add_1
 execute if score @s ccmld.set_point matches -200 run function ccmld:items/sheet_muwusic/pointer/minus_1
 
-execute if score @s ccmld.set_point matches -300 run function ccmld:items/sheet_muwusic/edit/save
+execute if score @s ccmld.set_point matches -300 if data entity @s SelectedItem.tag.ctc{id:"ccmld:sheet_muwusic"} run function ccmld:items/sheet_muwusic/edit/save
 execute if score @s ccmld.set_point matches -400 run function ccmld:items/sheet_muwusic/edit/stop
 execute if score @s ccmld.set_point matches -500 run function ccmld:items/sheet_muwusic/edit/save_stop
 
