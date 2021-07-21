@@ -10,7 +10,7 @@ execute unless entity @s[tag=ccmld.editing] if score @s ccmld.sneak_time matches
 execute if score @s[tag=ccmld.editing] ccmld.sneak_time matches 1.. if score @s ccmld.temp matches 0 run function ccmld:items/sheet_muwusic/edit/save_stop
 
 ## Yourself editing and not sneaking, move one note down and set current blank
-execute if score @s[tag=ccmld.editing] ccmld.sneak_time matches ..0 if score @s ccmld.temp matches 0 run scoreboard players set @s ccmld.set_point -100
+execute if score @s[tag=ccmld.editing] ccmld.sneak_time matches ..0 if score @s ccmld.temp matches 0 run function ccmld:items/sheet_muwusic/edit/set_current_blank
 
 ## Other people not editing and not sneaking, start editing
 execute unless entity @a[tag=ccmld.editing] if score @s ccmld.sneak_time matches ..0 if score @s ccmld.temp matches 0 run function ccmld:items/sheet_muwusic/edit/start
