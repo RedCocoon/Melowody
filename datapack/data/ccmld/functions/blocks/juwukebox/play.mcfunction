@@ -1,5 +1,6 @@
 ## Get note
-function ccmld:utils/note/get
+function ccmld:utils/note/flash
+function ccmld:blocks/juwukebox/get_note
 
 ## Clone the note to scores
 execute store result score @s ccmld.temp run data get storage ccmld:temp2 music.inst
